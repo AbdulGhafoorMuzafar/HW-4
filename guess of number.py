@@ -8,3 +8,7 @@ while True :
     if (computer_number == my_number) :
         print ("You guess correct !!! " ,x)
         break
+    if (computer_number < my_number ) :
+        print("Your guess biger number !")
+    if (computer_number > my_number ) :
+        print("Your guess smaller number !")
